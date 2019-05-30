@@ -26,7 +26,7 @@ road. During playing, the simulator will capture 3 views representing left, cent
 well as the steering angle and the car’s velocity. Those 3 views are saved as .jpg images and numerical
 data is saved to a .csv file along with the file names of corresponding images of the scene. 
 
-<img src="imgs/simulator_car.jpg" width="600" height="200" />
+<img src="imgs/simulator_car.jpg" width="600" height="250" />
 
 ## Data Augmentation
 As a normal practice in training a convolutional neural network, data augmentation is often used to
@@ -34,7 +34,7 @@ improve the learning ability of the model and to compensate the lack of training
 several common augmentation techniques are used such as random flip, random translation, brightness
 adjustment, and crop un-useful areas.
 
-<img src="imgs/autonomous_car.jpg" width="560" height="700" />
+<img src="imgs/autonomous_car.jpg" width="560" height="650" />
 
 # Model implementation
 A simple CNN model including two Convolutional layers, 2 MaxPooling, and 4 fully connected layers is
