@@ -16,7 +16,7 @@ from utils_autoCar import *
 
 # import matplotlib.pyplot as plt
 
-conf = {'parentDir':'/Users/mac/Documents/robotics_finalProject/data',
+conf = {'parentDir':'data',
         'imgDirs':[] ,'batch_size':16, 'No_epoch':200,
         'learningRate':0.0001, 'save_step':100,
         'logfile':'log_train.txt', 'modelName':''}
