@@ -6,8 +6,8 @@ train and run autonomous car in the simulation environment which is a Unity base
 provided by Udacity: [https://github.com/udacity/self-driving-car-sim](https://github.com/udacity/self-driving-car-sim)
 
 # Data preparation
-1. Download training data from google drive link.
-2. Put all folder into folder 'data'
+1. Follow instructions in section "Data Collection" to collect training data.
+2. Put all training folders inside folder 'data'
 
 # Training Model:
 From terminal, run: python train.py
