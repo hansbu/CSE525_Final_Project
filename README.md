@@ -15,8 +15,6 @@ From terminal, run: python train.py
 # Test Model 
 From terminal, run: python drive.py ${trained_model_name}
 
-
-
 # Dependencies
  - [Pytorch 0.4.0](http://pytorch.org/)
  - Numpy
@@ -44,6 +42,18 @@ used first to optimize the data augmentation techniques and to choose appropriat
 
 <img src="imgs/car_model.jpg" width="500" height="250" />
 
+# Training
+During training phase, the input images which are the view from left, center, or right camera are fed to the
+CNN after going through augmentation module. The steering angles collected during data collection are
+used as supervised labels to optimize the model. Mean squared error is used as the loss function since the
+output and label are scalars
+
+# Conclusion
+In this project, a pipeline for training and simulating autonomous car in 3D simulation environment using
+CNN is implemented and analyzed. It has shown that the CNN model is capable of learning useful visual
+feature not only in a same distribution (same road type) but also in different data distribution (different
+road views). As the result, it is able to successfully generate appropriate control signals to drive the car in
+different environment settings.
 
 
 
