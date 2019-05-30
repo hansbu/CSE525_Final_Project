@@ -34,13 +34,13 @@ improve the learning ability of the model and to compensate the lack of training
 several common augmentation techniques are used such as random flip, random translation, brightness
 adjustment, and crop un-useful areas.
 
-<img src="imgs/autonomous_car.jpg" width="500" height="580" />
+<img src="imgs/autonomous_car.jpg" width="560" height="700" />
 
 # Model implementation
 A simple CNN model including two Convolutional layers, 2 MaxPooling, and 4 fully connected layers is
 used first to optimize the data augmentation techniques and to choose appropriate optimizer and hyperparameters for the problem. The simple model quickly works well for when sufficient data augmentation included but it only works for a certain number of testing cases. As a result, a more complex model is required.
 
-<img src="imgs/car_model.jpg" width="500" height="250" />
+<img src="imgs/car_model.jpg" width="600" height="300" />
 
 # Training
 During training phase, the input images which are the view from left, center, or right camera are fed to the
