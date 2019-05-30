@@ -8,6 +8,7 @@ provided by Udacity: [https://github.com/udacity/self-driving-car-sim](https://g
 # Data preparation
 1. Follow instructions in section "Data Collection" to collect training data.
 2. Put all training folders inside folder 'data'
+3. Modify the settings of variable "dirs" in file main.py to contain your training folders.
 
 # Training Model:
 From terminal, run: python train.py
@@ -54,12 +55,3 @@ CNN is implemented and analyzed. It has shown that the CNN model is capable of l
 feature not only in a same distribution (same road type) but also in different data distribution (different
 road views). As the result, it is able to successfully generate appropriate control signals to drive the car in
 different environment settings.
-
-
-
-
-
-
-
-
-
